@@ -1,0 +1,37 @@
+
+
+运行环境
+     Windows or Linux 
+     Python3.？<3.8 請安裝小於3.8的PY版本，減少出錯
+
+安装模块
+     pip install python-telegram-bot numpy dnspython==1.15.0 
+
+报错说明
+      python3执行报错WARNING: Failed to execute tcpdump. Check it is installed and in the PATH
+      处理方法:
+      yum install tcpdump -y or apt-get install tcpdump
+
+      
+      其它錯誤請截圖發送給串串
+
+
+注意
+    使用前需要申請Telegram bots API Token，申請后請替換到bot.py中的API_KEY = "01234567789"
+
+    在Telegram機器人對話處輸入/start，開始享用！！！
+
+
+
+####斷開Linux的SSH連接后，使Python繼續保持在後臺運行的方法####
+1.首先安装screen
+    yum install -y screen
+2.创建screen实例
+    screen -S me
+3.执行要自己要执行的代码或者下载等操作
+    python3 bot.py
+4.断开连接（代码还在执行）
+5.验证
+
+
+
